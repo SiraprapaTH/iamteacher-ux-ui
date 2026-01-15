@@ -15,61 +15,10 @@ Primary school students in rural areas often face:
 - Limited access to quality learning resources
 - Few opportunities to practice speaking English
 
-These challenges lead to low confidence and slow language development.
-
 ---
 
 ## Target Users
 **Primary school children in rural areas**
-
-### Key Constraints
-- Limited devices and unstable connectivity
-- Minimal external guidance
-- Low tolerance for complex interfaces
-
-All UX decisions were driven by these constraints.
-
----
-
-## UX Goals
-- Reduce learning anxiety
-- Encourage regular English practice
-- Keep interactions simple and friendly
-- Ensure usability on low-spec devices
-
----
-
-## UX Approach
-- Voice-based, conversational interaction to lower pressure
-- Short, focused learning sessions
-- Clear learning flow: Learn → Practice → Review
-- Minimal UI elements with strong visual hierarchy
-
----
-
-## Core Learning Areas
-- Listening
-- Speaking
-- Reading
-- Writing
-
-Each area is designed for **lightweight, repeatable practice**.
-
----
-
-## Design & System Considerations
-- Lightweight UI optimized for low-resource environments
-- Consistent interaction patterns across platforms
-- Flexible interface to support AI and backend integration
-- Clear primary actions to reduce cognitive load
-
----
-
-## Platforms
-- Official Web version
-- Community iOS and Android applications
-
-Design consistency was prioritized across all implementations.
 
 ---
 
@@ -90,6 +39,93 @@ and emotional comfort over visual complexity.
 
 ---
 
+## Key Screens & UX Decisions
+
+### Login Screen
+![Login Screen](images/login-screen.png)
+
+The login screen offers multiple entry options, including
+third-party login, email login, and guest access.
+
+This design reduces friction for first-time users and allows
+learners to start using the app even without creating an account,
+which is important for young users and shared devices.
+
+Primary actions are clearly separated to avoid confusion
+and minimize cognitive load at the entry point.
+
+---
+
+### Learn (Main) Page
+![Learn Page](images/learn-page.png)
+
+The main learning page serves as a clear hub for all learning activities.
+Learning options are grouped by skill type—Conversation, Vocabulary,
+Writing, and Reading—to help users quickly identify what they want to practice.
+
+Progress indicators (time spent, new words learned) are visible but not dominant,
+supporting motivation without overwhelming the user.
+
+The layout prioritizes clarity and emotional comfort over visual complexity.
+
+---
+
+### Profile (Me) Page
+![Profile Page](images/profile-page.png)
+
+The profile page focuses on learning progress rather than account management.
+Skill progress bars (Reading, Writing, Listening, Speaking) provide
+a simple overview of the learner’s development.
+
+The CEFR level indicator offers an understandable benchmark
+without exposing unnecessary technical details.
+
+Customization options are kept minimal to avoid distracting
+from the core learning experience.
+
+---
+
+### AI Chat – Explain a Word
+![AI Chat](images/chat-explain-word.png)
+
+The AI chat interface is designed to feel conversational and non-intimidating.
+The visual style minimizes UI noise, allowing users to focus on content.
+
+Explanations are concise and contextual, supporting quick understanding
+without interrupting the learning flow.
+
+This interaction supports just-in-time learning,
+allowing users to ask questions when confusion arises.
+
+---
+
+### Lesson List
+![Lesson List](images/lesson-list.png)
+
+Lessons are organized by difficulty level with clear time estimates
+and reward indicators.
+
+This structure helps learners choose lessons based on available time
+and perceived effort, encouraging consistent daily practice.
+
+Completion status is visually indicated to reinforce progress
+and provide a sense of achievement.
+
+---
+
+### Character-based Conversation
+![Conversation Screen](images/conversation-screen.png)
+
+The conversation screen uses a character-based interaction
+to reduce speaking anxiety, especially for young learners.
+
+Voice interaction is emphasized through clear, large action buttons,
+making the interface easy to understand without textual instructions.
+
+The design limits on-screen options to keep attention
+on speaking practice rather than interface controls.
+
+
 ## Related Project
 Implementation repository:  
 https://github.com/zymple/iamteacher
@@ -97,4 +133,4 @@ https://github.com/zymple/iamteacher
 ##DEMO
 https://iamteacher.techtransthai.org/login
 
-This repository focuses on UX/UI thinking and design decisions.
+

@@ -1,51 +1,100 @@
-# iamteacher-ux-ui
-UX/UI case study for an AI-based English learning mobile application
-# AI English Tutor — UX/UI Case Study
+# iAmTeacher — UX/UI Case Study
 
 ## Overview
-AI English Tutor is a mobile application designed to help English learners
-practice conversation in a low-pressure, friendly environment.
+iAmTeacher is an open-source, voice-based AI English learning platform
+designed to support students who lack access to qualified English teachers.
 
-My role focused on UX/UI design, user flow, and interaction design
-within real technical constraints.
+This case study focuses on **UX/UI design decisions** made to support
+young learners in constrained environments such as rural areas.
 
 ---
 
 ## Problem
-Many English learners feel anxious when practicing conversation alone.
-Traditional learning apps often emphasize tests and grammar,
-which discourages consistent speaking practice.
+Primary school students in rural areas often face:
+- Shortage of qualified English teachers
+- Limited access to quality learning resources
+- Few opportunities to practice speaking English
+
+These challenges lead to low confidence and slow language development.
 
 ---
 
-## Users
-- Beginner to intermediate English learners
-- Self-learners studying independently
-- Users who prefer casual, conversational learning
+## Target Users
+**Primary school children in rural areas**
+
+### Key Constraints
+- Limited devices and unstable connectivity
+- Minimal external guidance
+- Low tolerance for complex interfaces
+
+All UX decisions were driven by these constraints.
 
 ---
 
 ## UX Goals
 - Reduce learning anxiety
-- Encourage daily practice through short sessions
-- Keep interactions simple and emotionally friendly
+- Encourage regular English practice
+- Keep interactions simple and friendly
+- Ensure usability on low-spec devices
 
 ---
 
 ## UX Approach
-- Character-based conversation to lower pressure
-- Clear learning flow: Login → Lesson → Conversation → Progress
-- Strong visual hierarchy to guide primary actions
+- Voice-based, conversational interaction to lower pressure
+- Short, focused learning sessions
+- Clear learning flow: Learn → Practice → Review
+- Minimal UI elements with strong visual hierarchy
+
+---
+
+## Core Learning Areas
+- Listening
+- Speaking
+- Reading
+- Writing
+
+Each area is designed for **lightweight, repeatable practice**.
+
+---
+
+## Design & System Considerations
+- Lightweight UI optimized for low-resource environments
+- Consistent interaction patterns across platforms
+- Flexible interface to support AI and backend integration
+- Clear primary actions to reduce cognitive load
+
+---
+
+## Platforms
+- Official Web version
+- Community iOS and Android applications
+
+Design consistency was prioritized across all implementations.
 
 ---
 
 ## My Role
-UX/UI Designer  
-- User flow & information architecture  
-- Wireframing and UI mockups  
-- Collaboration with developers  
+**UX/UI Designer**
+
+- User flow & information architecture
+- UI mockups aligned with technical constraints
+- Cross-platform UX consistency
+- Collaboration with developers and open-source contributors
 
 ---
 
-## Tools
-- Figma
+## Outcome & Reflection
+This project highlights how UX/UI design can support learning
+in constrained environments by prioritizing usability, accessibility,
+and emotional comfort over visual complexity.
+
+---
+
+## Related Project
+Implementation repository:  
+https://github.com/zymple/iamteacher
+
+##DEMO
+https://iamteacher.techtransthai.org/login
+
+This repository focuses on UX/UI thinking and design decisions.
